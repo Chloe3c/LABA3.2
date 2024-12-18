@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите натуральное число n (n >= 10): ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = int.Parse(ConsoleReadline());
 
 if (n < 10)
 {
